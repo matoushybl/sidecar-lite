@@ -1950,7 +1950,7 @@ dependencies = [
 [[package]]
 name = "p4"
 version = "0.1.0"
-source = "git+https://github.com/matoushybl/p4?rev=0c0b665c16878af01a90c041140fa9e094b63dd3#0c0b665c16878af01a90c041140fa9e094b63dd3"
+source = "git+https://github.com/matoushybl/p4?rev=a6d9edbd7a46f609af9b09b6176588990fa0a8b2#a6d9edbd7a46f609af9b09b6176588990fa0a8b2"
 dependencies = [
  "colored",
  "regex",
@@ -1959,7 +1959,7 @@ dependencies = [
 [[package]]
 name = "p4-macro"
 version = "0.1.0"
-source = "git+https://github.com/matoushybl/p4?rev=0c0b665c16878af01a90c041140fa9e094b63dd3#0c0b665c16878af01a90c041140fa9e094b63dd3"
+source = "git+https://github.com/matoushybl/p4?rev=a6d9edbd7a46f609af9b09b6176588990fa0a8b2#a6d9edbd7a46f609af9b09b6176588990fa0a8b2"
 dependencies = [
  "p4",
  "p4-rust",
@@ -1972,7 +1972,7 @@ dependencies = [
 [[package]]
 name = "p4-rust"
 version = "0.1.0"
-source = "git+https://github.com/matoushybl/p4?rev=0c0b665c16878af01a90c041140fa9e094b63dd3#0c0b665c16878af01a90c041140fa9e094b63dd3"
+source = "git+https://github.com/matoushybl/p4?rev=a6d9edbd7a46f609af9b09b6176588990fa0a8b2#a6d9edbd7a46f609af9b09b6176588990fa0a8b2"
 dependencies = [
  "p4",
  "prettyplease",
@@ -1985,7 +1985,7 @@ dependencies = [
 [[package]]
 name = "p4rs"
 version = "0.1.0"
-source = "git+https://github.com/matoushybl/p4?rev=0c0b665c16878af01a90c041140fa9e094b63dd3#0c0b665c16878af01a90c041140fa9e094b63dd3"
+source = "git+https://github.com/matoushybl/p4?rev=a6d9edbd7a46f609af9b09b6176588990fa0a8b2#a6d9edbd7a46f609af9b09b6176588990fa0a8b2"
 dependencies = [
  "bitvec",
  "num",
@@ -3286,7 +3286,7 @@ dependencies = [
 [[package]]
 name = "tests"
 version = "0.1.0"
-source = "git+https://github.com/matoushybl/p4?rev=0c0b665c16878af01a90c041140fa9e094b63dd3#0c0b665c16878af01a90c041140fa9e094b63dd3"
+source = "git+https://github.com/matoushybl/p4?rev=a6d9edbd7a46f609af9b09b6176588990fa0a8b2#a6d9edbd7a46f609af9b09b6176588990fa0a8b2"
 dependencies = [
  "anyhow",
  "bitvec",

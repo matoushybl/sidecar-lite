@@ -33,7 +33,7 @@ pnet_macros_support = "0.35"
 # override so the dependency tables keep pointing at upstream; drop this
 # block once the change lands upstream.
 [patch."https://github.com/oxidecomputer/p4"]
-p4rs = { git = "https://github.com/matoushybl/p4", rev = "27e0a28a119d90c77233a4649e6d4565a36a86b7" }
-p4-macro = { git = "https://github.com/matoushybl/p4", rev = "27e0a28a119d90c77233a4649e6d4565a36a86b7" }
-p4-rust = { git = "https://github.com/matoushybl/p4", rev = "27e0a28a119d90c77233a4649e6d4565a36a86b7" }
-tests = { git = "https://github.com/matoushybl/p4", rev = "27e0a28a119d90c77233a4649e6d4565a36a86b7" }
+p4rs = { git = "https://github.com/matoushybl/p4", rev = "a6d9edbd7a46f609af9b09b6176588990fa0a8b2" }
+p4-macro = { git = "https://github.com/matoushybl/p4", rev = "a6d9edbd7a46f609af9b09b6176588990fa0a8b2" }
+p4-rust = { git = "https://github.com/matoushybl/p4", rev = "a6d9edbd7a46f609af9b09b6176588990fa0a8b2" }
+tests = { git = "https://github.com/matoushybl/p4", rev = "a6d9edbd7a46f609af9b09b6176588990fa0a8b2" }
