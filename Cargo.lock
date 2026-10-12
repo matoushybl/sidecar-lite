@@ -1985,17 +1985,6 @@ dependencies = [
 [[package]]
 name = "p4rs"
 version = "0.1.0"
-source = "git+https://github.com/oxidecomputer/p4?branch=main#4645231880ccae40efd2bc583b643944ab0f0a20"
-dependencies = [
- "bitvec",
- "num",
- "serde",
- "usdt 0.5.0",
-]
-
-[[package]]
-name = "p4rs"
-version = "0.1.0"
 source = "git+https://github.com/matoushybl/p4?rev=0c0b665c16878af01a90c041140fa9e094b63dd3#0c0b665c16878af01a90c041140fa9e094b63dd3"
 dependencies = [
  "bitvec",
@@ -2680,7 +2669,7 @@ dependencies = [
  "libc",
  "macaddr",
  "num",
- "p4rs 0.1.0 (git+https://github.com/matoushybl/p4?rev=0c0b665c16878af01a90c041140fa9e094b63dd3)",
+ "p4rs",
  "serde",
  "serde_json",
  "softnpu",
@@ -2936,7 +2925,7 @@ dependencies = [
  "colored",
  "num",
  "p4-macro",
- "p4rs 0.1.0 (git+https://github.com/matoushybl/p4?rev=0c0b665c16878af01a90c041140fa9e094b63dd3)",
+ "p4rs",
  "pnet",
  "pnet_macros",
  "pnet_macros_support",
@@ -3116,7 +3105,7 @@ name = "softnpu"
 version = "0.2.0"
 source = "git+https://github.com/oxidecomputer/softnpu?branch=main#1fc6c6e12370f158b036fb9d2247424d218e3f88"
 dependencies = [
- "p4rs 0.1.0 (git+https://github.com/oxidecomputer/p4?branch=main)",
+ "p4rs",
  "serde",
  "serde_json",
  "tokio",
@@ -3304,7 +3293,7 @@ dependencies = [
  "colored",
  "num",
  "p4-macro",
- "p4rs 0.1.0 (git+https://github.com/matoushybl/p4?rev=0c0b665c16878af01a90c041140fa9e094b63dd3)",
+ "p4rs",
  "pnet",
  "rand 0.9.4",
  "usdt 0.5.0",

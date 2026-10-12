@@ -6,9 +6,9 @@ members = [
 resolver = "2"
 
 [workspace.dependencies]
-p4rs = { git = "https://github.com/matoushybl/p4", rev = "0c0b665c16878af01a90c041140fa9e094b63dd3" }
-p4-macro = { git = "https://github.com/matoushybl/p4", rev = "0c0b665c16878af01a90c041140fa9e094b63dd3" }
-p4-test = { package = "tests", git = "https://github.com/matoushybl/p4", rev = "0c0b665c16878af01a90c041140fa9e094b63dd3" }
+p4rs = { git = "https://github.com/oxidecomputer/p4", branch = "main" }
+p4-macro = { git = "https://github.com/oxidecomputer/p4", branch = "main" }
+p4-test = { package = "tests", git = "https://github.com/oxidecomputer/p4", branch = "main" }
 usdt = { git = "https://github.com/oxidecomputer/usdt" }
 
 base64 = { version = "0.22" }
@@ -27,3 +27,13 @@ anyhow = "1"
 pnet = "0.35"
 pnet_macros = "0.35"
 pnet_macros_support = "0.35"
+
+# Use a forked p4 whose codegen drops the eager per-packet debug dumps
+# (the SoftNPU throughput fix, ~186us -> ~26us/pkt). Applied as a [patch]
+# override so the dependency tables keep pointing at upstream; drop this
+# block once the change lands upstream.
+[patch."https://github.com/oxidecomputer/p4"]
+p4rs = { git = "https://github.com/matoushybl/p4", rev = "0c0b665c16878af01a90c041140fa9e094b63dd3" }
+p4-macro = { git = "https://github.com/matoushybl/p4", rev = "0c0b665c16878af01a90c041140fa9e094b63dd3" }
+p4-rust = { git = "https://github.com/matoushybl/p4", rev = "0c0b665c16878af01a90c041140fa9e094b63dd3" }
+tests = { git = "https://github.com/matoushybl/p4", rev = "0c0b665c16878af01a90c041140fa9e094b63dd3" }
