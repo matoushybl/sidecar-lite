@@ -6,9 +6,9 @@ members = [
 resolver = "2"
 
 [workspace.dependencies]
-p4rs = { git = "https://github.com/oxidecomputer/p4", branch = "main" }
-p4-macro = { git = "https://github.com/oxidecomputer/p4", branch = "main" }
-p4-test = { package = "tests", git = "https://github.com/oxidecomputer/p4", branch = "main" }
+p4rs = { git = "https://github.com/matoushybl/p4", rev = "0c0b665c16878af01a90c041140fa9e094b63dd3" }
+p4-macro = { git = "https://github.com/matoushybl/p4", rev = "0c0b665c16878af01a90c041140fa9e094b63dd3" }
+p4-test = { package = "tests", git = "https://github.com/matoushybl/p4", rev = "0c0b665c16878af01a90c041140fa9e094b63dd3" }
 usdt = { git = "https://github.com/oxidecomputer/usdt" }
 
 base64 = { version = "0.22" }
